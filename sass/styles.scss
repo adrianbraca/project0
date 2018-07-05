@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+#name {
+    color: #5192B3;
+}
+
+.project {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.sidebar {
+    height: 100%;
+    width: 30%;
+    max-width: 300px;
+    background: #5192B3;
+    color: white;
+    
+    .sidebar-about {
+        a {
+            color: white;
+        }
+        .lead {
+            color: #9AC0D3;
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+        .sidebar-nav-item {
+            color: white;
+        }
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: wrap;
+    width: 100%;
+    overflow: scroll;
+
+    .aboutme {
+        color: lightslategray;
+    }
+}
